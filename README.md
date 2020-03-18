@@ -5,6 +5,7 @@ Sample Docker build files to facilitate installation, configuration, and environ
 This is a modified Dockerfile of fuzziebrain user [docker-oracle-xe](https://github.com/fuzziebrain/docker-oracle-xe)
 
 The problem with oracle images is extremely slow start. On the first start database is created, and this step can take several minutes.
+This is problematic when we want to use a given image in integration tests using the Testcontainers library.
 
 I decided divide a runOracle.sh file into two files:
 + PREPARE_FILE="prepareOracle.sh" is responsible for create a database.
