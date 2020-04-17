@@ -15,6 +15,7 @@ In Dockerfile we have additional layer which is responsible for run a prepareOra
 
 This image is available on docker hub:
 + docker pull kamiljedrzejuk/oracle18c-xe-initialized:latest
++ [docker-hub](https://hub.docker.com/repository/docker/kamiljedrzejuk/oracle18c-xe-initialized)
 
 ## Build Image
 
